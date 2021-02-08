@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+	<title>Login adm</title>
+	<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="estilologin.css"> 
+</head>
+</head>
+
+<body>
+		<div class="conteiner">
+<header>
+<nav id="login">
+
+<h1>Login area</h1>
+	<ul class="menu">
+		<li><a href="registroadm.html">Registar-ADM</a></li>
+	</ul></nav>
+ </header>
+</div>
+
+<div class="formulario">
+	<section>
+<form method="post" action="processa.php">
+<!-- aqui no form colocar também o email do adm-->
+
+<fieldset id="usuario">
+<legend>Login</legend>
+
+   <p><label for="cNome">Nome de usuario:</label><input type="text" name="tNome" id="cNome" size="30" maxlength="30" placeholder="Digite o nome de usuario"></p>
+
+   <p> <label for="cSenha">Password:</label><input type="password" name="tsenha" id="cSenha" size="8" maxlength="8" placeholder="8 digitos"></p>
+	<button type="submit">Login</buttom>
+</section>
+
+</div>
+
+</body>
+</html>

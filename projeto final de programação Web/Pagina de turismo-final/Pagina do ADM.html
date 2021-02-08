@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html lang="pt-pt">
+
+<head>
+    <meta charset="utf-8">
+    <title> ADM_PAG</title>
+
+        <style type="text/css">
+        body{
+            position: absolute;
+            width: 600px;
+            height: 1000px;
+            margin-bottom: 600px
+            font-family: Arial, sans-serif;
+            font-size: 10pt;
+            overflow: hidden;
+            background-color: rgba(255,235,59,0.3);}
+
+        p{text-align: justify;
+        text-indent:30px;}
+        }
+    </style>
+    
+</head>
+<body>
+    <div id="interface">
+
+<hgroup>
+<h1>OLA ADM</h1>
+<h2>SEJA BEM VINDO...</h2>
+</hgroup>
+
+<fieldset id="menu">
+<legend>Menu principal</legend>
+    <p><label for="cMen"> Escolha o Menu:</label>
+    <select name="tMen" id="cMen">   
+        <option>HOME </option>
+         <option>ALOJAMENTOS</option>
+         <option>RESTAURANTES</option>
+         <option>TURISMO</option>
+    </select></p>
+         <br>
+
+    <p><label for="cTit"> Escolha o titulo a alterar:</label>
+    <select name="tTit" id="cTit">   
+        <option>TITULO 1:</option>
+         <option>TITULO 2:</option>
+         <option>TITULO 3:</option>
+    </select></p>
+
+         <p><label for="cCom">Comentario:</br><br></label>
+<textarea name="cCom" id="cCom" cols="25" rows="5" placeholder="Nova informação"></textarea>
+</p>
+     <input type ="submit" name ="submit" value ="Enviar" class ="btn" />
+    <input type ="submit" name ="submit" value ="Limpar" class ="btn" />
+    <br><br>
+
+<fieldset id="provincia">
+<legend>Escolha provincia </legend>
+    <p><label for="cMen"> Escolha provincia:</label>
+    <select name="tMen" id="cMen">   
+         <option>Bengo</option>
+         <option>Benguela</option>
+         <option>Bié</option>
+         <option>Cabinda</option>
+         <option>Cuando-Cubango</option>
+         <option>Cuanza-Norte</option>
+         <option>Cuanza-Sul</option>
+         <option>Cunene</option>
+         <option>Huambo</option>
+         <option>Huíla</option>
+         <option>Luanda</option>
+         <option>Lunda-Norte</option>
+         <option>Lunda-Sul</option>
+         <option>Malanje</option>
+         <option>Moxico</option>
+         <option>Namibe</option>
+         <option>Uíge</option>
+         <option>Zaire</option>
+    </select></p>
+         <br>
+
+    <p><label for="cTit"> Escolha o titulo a alterar:</label>
+    <select name="tTit" id="cTit">   
+         <option>Alojamento:</option>
+         <option>Restauração:</option>
+         <option>Turismo:</option>
+    </select></p>
+
+    <p><label for="cinl">Informe o local:</br><br></label><input type="text" name="tinl" id="cinl" size="13" maxlength="80" placeholder="Digite o local..."></p>
+
+    <p><label for="cinl">colocar link:</br><br></label><input type="text" name="tinl" id="cinl" size="13" maxlength="80" placeholder="Digite o link..."></p>
+
+    <input type ="submit" name ="submit" value ="Enviar" class ="btn"/>
+    <input type ="submit" name ="submit" value ="Limpar" class ="btn"/>
+</fieldset>
+ <input type ="submit" name ="submit" value ="Logout" class ="btn"/>
+
+</div>
+</body>
+</html> 
